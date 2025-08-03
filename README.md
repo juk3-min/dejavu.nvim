@@ -4,6 +4,9 @@
 The [native dot command](https://neovim.io/doc/user/repeat.html) supports a variety of repetitions, but some are missing, making certain commands awkward to repeat.
 dejavu fills this gap.
 
+![screencast](https://private-user-images.githubusercontent.com/79405837/473807551-4c2db674-3a56-43de-8725-b740f66efaf2.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQyNDYxNDQsIm5iZiI6MTc1NDI0NTg0NCwicGF0aCI6Ii83OTQwNTgzNy80NzM4MDc1NTEtNGMyZGI2NzQtM2E1Ni00M2RlLTg3MjUtYjc0MGY2NmVmYWYyLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODAzVDE4MzA0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmZGE1ZTdmMDA1MzA1MDBkYzZlMzAzMGQzNjg0ZDVkZWJlZTgxODc4NjBiMmFkNmE1ODExOWU0YTA2ZDBiMzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.R2UDCkXi75ZjsQ44L6fKUkuCOxA3LVuSnxqGNoKmVFE)
+> [!Note]
+> In this example @x is remapped to `(` to repeat the commands with a single key press
 
 Other plugins allow registering commands to make them repeatable:
 
