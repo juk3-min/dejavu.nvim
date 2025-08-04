@@ -121,7 +121,7 @@ function M.storage_logic()
 	end
 	-- dejavu doesnt store macros either
 	-- this can easily crash vim when recursivly calling macros
-	if string.find(M.keys, "@x") then
+	if string.find(M.keys, "@" .. M.config.macro_key) then
 		M.config.notify("dejvu: recursive macro not allowed")
 		M.safestate = true
 		return
